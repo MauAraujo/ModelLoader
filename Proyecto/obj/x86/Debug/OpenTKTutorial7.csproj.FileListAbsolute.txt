@@ -1,0 +1,30 @@
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\fs.glsl
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\vs.glsl
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\opentksquare.png
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\opentksquare2.png
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\fs_tex.glsl
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\vs_tex.glsl
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\OpenTKTutorial7.exe
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\OpenTKTutorial7.pdb
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\OpenTK.dll
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\OpenTK.xml
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.exe
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.pdb
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\cow.obj
+C:\Users\Mauricio\Downloads\OpenTKTutorialContent-master\OpenTKTutorial7\OpenTKTutorial7\bin\Debug\teapot.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\fs.glsl
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\vs.glsl
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\opentksquare.png
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\opentksquare2.png
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\cow.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\fs_tex.glsl
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\teapot.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\vs_tex.glsl
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\OpenTKTutorial7.exe
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\OpenTKTutorial7.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\OpenTK.dll
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\bin\Debug\OpenTK.xml
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.exe
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\OpenTKTutorial7\obj\x86\Debug\OpenTKTutorial7.pdb

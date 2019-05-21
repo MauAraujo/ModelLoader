@@ -1,0 +1,13 @@
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\OpenTK.dll
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Tao.FreeGlut.dll
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Tao.OpenGl.dll
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\OpenTK.xml
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Tao.FreeGlut.xml
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\Tao.OpenGl.xml
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj\x86\Debug\Proyecto.exe
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj\x86\Debug\Proyecto.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\trippy.jpg
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj\x86\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\nave.obj
