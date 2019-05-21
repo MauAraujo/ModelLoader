@@ -14,6 +14,7 @@ namespace Proyecto
     class ScreenGame : GameWindow
     {
         ObjectModel obj;
+        Textura2D tex;
 
         public ScreenGame(int ancho, int alto) : base(ancho, alto)
         { 
@@ -25,8 +26,11 @@ namespace Proyecto
 
             GL.LoadIdentity();
             GL.MatrixMode(MatrixMode.Projection);
-            GL.Ortho(-15, 15, -15, 15, 15, -15);
+            GL.Ortho(-3, 3, -3, 3, 3, -3);
+
             obj = Loader.FromFile("AirDrone.obj");
+            tex = CargarTextura.LoadTexture("trippy.jpg");
+            obj.TextureID = tex.Id;
         }
 
         protected override void OnRenderFrame(FrameEventArgs e)
@@ -34,20 +38,39 @@ namespace Proyecto
             base.OnRenderFrame(e);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-            GL.Rotate(10.5f, 10.5f, 10.5f, 10.5f);
-            GL.Begin(PrimitiveType.Triangles);
-            foreach (Vector3 vertex in obj.Vertices)
-            {
-                int index = obj.Vertices.IndexOf(vertex);
-                GL.Vertex3(vertex);
+            GL.Rotate(0.5f, 100, 100, 100);
 
-                if(index < obj.Vertices.ToArray().Length - 2)
-                {
-                    GL.Vertex3(obj.Vertices.ElementAt(index + 1));
-                    GL.Vertex3(obj.Vertices.ElementAt(index + 2));
-                }
+            //GL.Begin(PrimitiveType.Triangles);
+            //foreach (Vector3 vertex in obj.Vertices)
+            //{
+            //    int index = obj.Vertices.IndexOf(vertex);
+            //    GL.Vertex3(vertex);
+
+            //    if(index < obj.Vertices.ToArray().Length - 2)
+            //    {
+            //        GL.Vertex3(obj.Vertices.ElementAt(index + 1));
+            //        GL.Vertex3(obj.Vertices.ElementAt(index + 2));
+            //    }
+            //}
+            //GL.End();
+
+            GL.Begin(PrimitiveType.Triangles);
+            foreach (int vertex in obj.TriFace)
+            {
+                GL.Vertex3(obj.Vertices.ElementAt(obj.TriFace.IndexOf(vertex)));
             }
             GL.End();
+
+            //GL.Begin(PrimitiveType.Quads);
+            //foreach (int vertex in obj.QuadFace)
+            //{
+            //    int index = obj.QuadFace.IndexOf(vertex);
+            //    if(index < obj.Vertices.ToArray().Length)
+            //    {
+            //        GL.Vertex3(obj.Vertices.ElementAt(obj.QuadFace.IndexOf(vertex)));
+            //    }
+            //}
+            //GL.End();
 
             SwapBuffers();
         }
