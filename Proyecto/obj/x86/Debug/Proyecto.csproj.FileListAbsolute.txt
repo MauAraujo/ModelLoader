@@ -11,3 +11,4 @@ C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\trippy.jpg
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj\x86\Debug\Proyecto.csprojResolveAssemblyReference.cache
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\nave.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\AirDrone.obj

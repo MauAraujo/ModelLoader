@@ -84,6 +84,9 @@
     <Compile Include="Textura2D.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AirDrone.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="nave.obj">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
