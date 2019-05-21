@@ -42,41 +42,32 @@ namespace Proyecto
             GL.Rotate(0.5f, 100, 100, 100);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.ClearColor(Color4.Cornsilk);
-
-
-            //GL.Begin(PrimitiveType.Triangles);
-            //foreach (Vector3 vertex in obj.Vertices)
-            //{
-            //    int index = obj.Vertices.IndexOf(vertex);
-            //    GL.Vertex3(vertex);
-
-            //    if (index < obj.Vertices.ToArray().Length - 2)
-            //    {
-            //        GL.Vertex3(obj.Vertices.ElementAt(index + 1));
-            //        GL.Vertex3(obj.Vertices.ElementAt(index + 2));
-            //    }
-            //}
-            //GL.End();
             GL.BindTexture(TextureTarget.Texture2D, tex.Id);
-
-            GL.Begin(PrimitiveType.Triangles);
-            foreach (int vertex in obj.TriFace)
+            
+            foreach (List<int> vertex in obj.Faces)
             {
-                GL.Vertex3(obj.Vertices.ElementAt(obj.TriFace.IndexOf(vertex)));
-            }
-            GL.End();
-
-            GL.Begin(PrimitiveType.Quads);
-            foreach (int vertex in obj.QuadFace)
-            {
-                int index = obj.QuadFace.IndexOf(vertex);
-                if (index < obj.Vertices.ToArray().Length)
+                if(vertex.Count == 3)
                 {
-                    GL.Vertex3(obj.Vertices.ElementAt(obj.QuadFace.IndexOf(vertex)));
+                    GL.Begin(PrimitiveType.Triangles);
+                    foreach (int index in vertex)
+                    {
+                        if(index < obj.Vertices.Count)
+                        {
+                            GL.Vertex3(obj.Vertices.ElementAt(index - 1));
+                        }
+                    }
+                    GL.End();
+                }
+                if (vertex.Count == 4)
+                {
+                    GL.Begin(PrimitiveType.Quads);
+                    foreach (int index in vertex)
+                    {
+                        GL.Vertex3(obj.Vertices.ElementAt(index - 1));
+                    }
+                    GL.End();
                 }
             }
-            GL.End();
-
             SwapBuffers();
         }
 

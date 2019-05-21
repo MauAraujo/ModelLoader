@@ -9,12 +9,10 @@ namespace Proyecto
     class ObjectModel
     {
         List<Vector3> vertices = new List<Vector3>();
+        List<List<int>> faces = new List<List<int>>();
         public List<Vector3> Vertices { get => vertices; set => vertices = value; }
-        public List<int> TriFace { get => triFace; set => triFace = value; }
-        public List<int> QuadFace { get => quadFace; set => quadFace = value; }
+        public List<List<int>> Faces { get => faces; set => faces = value; }
 
-        List<int> triFace = new List<int>();
-        List<int> quadFace = new List<int>();
         public int TextureID;
 
         public void ProcessFile(String filecontents)
@@ -37,26 +35,16 @@ namespace Proyecto
                 {
                     String temp = line.Substring(2);
                     String[] faceparts = temp.Split(' ');
-                    int result;
+                    List<int> data = new List<int>();
+                    int result, index = 0;
 
-                    if(faceparts.Length == 3)
+                    foreach (String part in faceparts)
                     {
-                        foreach (String part in faceparts)
-                        {
-                            String[] tempface = part.Split('/');
-                            int.TryParse(tempface[0], out result);
-                            triFace.Add(result);
-                        }
+                        String[] tempface = part.Split('/');
+                        int.TryParse(tempface[0], out result);
+                        data.Add(result);
                     }
-                    if (faceparts.Length == 4)
-                    {
-                        foreach (String part in faceparts)
-                        {
-                            String[] tempface = part.Split('/');
-                            int.TryParse(tempface[0], out result);
-                            quadFace.Add(result);
-                        }
-                    }
+                    faces.Add(data);
                 }
             }
         }
