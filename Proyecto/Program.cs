@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            ScreenGame ventana = new ScreenGame(500, 500);
+            ScreenGame ventana = new ScreenGame(800, 800);
             ventana.Run(30, 30);
         }
     }

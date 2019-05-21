@@ -12,3 +12,6 @@ C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\obj\x86\Debug\Proyecto.csprojResolveAssemblyReference.cache
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\nave.obj
 C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\AirDrone.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\1911.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\sword.obj
+C:\Users\Mauricio\Documents\Visual Studio 2017\Projects\ModelLoader\Proyecto\bin\Debug\metal.jpg
